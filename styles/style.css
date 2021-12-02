@@ -1,0 +1,38 @@
+body {
+    margin: 0 auto;
+    width: 70%;
+}
+
+h1, h2, h3 {
+    font-family: "Montserrat", "Roboto", sans-serif;
+    margin-top: 1.7em;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+figure {
+    float: right;
+    display: table;
+}
+
+figcaption {
+    font-style: italic;
+    display: table-caption;
+    caption-side: bottom;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+caption {
+    white-space: nowrap;
+}
+
+.bottom-caption {
+    caption-side: bottom;
+    font-style: italic;
+    text-align: left;
+}
